@@ -120,7 +120,6 @@ document.getElementById("registerForm").addEventListener("submit", function(even
         simulateServerRequest()
             .then(function() {
                 hideLoader();
-                this.reset()
                 alert("Registration successful!");
             })
             .catch(function(error) {

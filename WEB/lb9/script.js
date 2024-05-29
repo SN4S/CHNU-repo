@@ -3,10 +3,10 @@ let sortenable = false
 
 
 document.addEventListener("DOMContentLoaded", function (evt){
-    if(!localStorage.getItem("login")){
-        alert("You are not loged in!")
-        location.href="lb9.html";
-    }
+   // if(!localStorage.getItem("login")){
+   //     alert("You are not loged in!")
+    //    location.href="lb9.html";
+   // }
     console.log('1')
     download()
 } );
@@ -32,16 +32,19 @@ function download(count=20){
             }
         });
     }
+    console.log(arr)
 }
 
-function renderer(){
+
+function renderer(arra){
     console.log('3')
     list = document.getElementsByClassName('list')[0]
+    list.innerHTML = "";
     console.log('4')
-    console.log(arr.length)
-    for (let i=0;i<arr.length;i++){
+    console.log(arra.length)
+    for (let i=0;i<arra.length;i++){
         console.log()
-        addCard(list,arr[i])
+        addCard(list,arra[i])
     }
 }
 
@@ -66,6 +69,32 @@ function addCard(parentElement, data) {
     console.log('4')
 }
 
-function sort(){
-    let sortedarr = []
-}
+document.getElementById("nameup").addEventListener("click",function (evt){
+    let sorted = arr.sort((a, b) => a.name.first.localeCompare(b.name.first));
+
+    renderer(sorted)
+})
+
+document.getElementById("namedwn").addEventListener("click",function (evt){
+    let sorted = arr.sort((a, b) => b.name.first.localeCompare(a.name.first));
+
+    renderer(sorted)
+})
+
+document.getElementById("ageup").addEventListener("click",function (evt){
+    let sorted = arr.sort(function (a, b){return a.dob.age - b.dob.age});
+
+    renderer(sorted)
+})
+
+document.getElementById("agedwn").addEventListener("click",function (evt){
+    let sorted = arr.sort(function (a, b){return b.dob.age - a.dob.age});
+
+    renderer(sorted)
+})
+
+document.getElementById("fltage").addEventListener("click",function (evt){
+    let filterd = arr.f(function (a, b){return b.dob.age - a.dob.age});
+
+    renderer(filterd)
+})

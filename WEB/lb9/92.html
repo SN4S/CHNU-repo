@@ -3,34 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 <div id="container">
         <div class="leftpanel">
                 <div class="row">
                     <h3>Sort by age</h3>
-                    <button>SORT  </button>
-                    <button>  SORT</button>
+                    <button id="ageup">SORT  </button>
+                    <button id="agedwn">  SORT</button>
                 </div>
             <div class="row">
-                <h3>Sort by age</h3>
-                <button>SORT  </button>
-                <button>  SORT</button>
+                <h3>Sort by name</h3>
+                <button id="nameup">SORT  </button>
+                <button id="namedwn">  SORT</button>
             </div>
 
             <div class="row">
-                <input max="150" min="1" value="1" type="number">
+                <input max="150" min="1" value="1" type="number" id="agei">
             </div>
             <div class="row">
-                <button>Filter by age</button>
+                <button id="fltage">Filter by age</button>
             </div>
 
             <div class="row">
-                <input type="number">
+                <input id="namei">
             </div>
             <div class="row">
-                <button>Filter by name</button>
+                <button id="fltname">Filter by name</button>
             </div>
 
         </div>
@@ -43,7 +43,7 @@
             <button onclick="download()">Load more</button>
         </div>
     </div>
-        <script src="jquery-3.7.1.min.js"></script>
-        <script src="script.js"></script>
+        <script src="./jquery-3.7.1.min.js"></script>
+        <script src="./script.js"></script>
 </body>
 </html>
