@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "WAPwkGlHz9c3M1ZKABKVs/sLc5OlzdSOH5w3wEq+viYMNB0fIhWqfSUPqVCO5x/p+Fexivz4XFNUhC+Z0uTV/w==",
+  "success": true,
+  "projectFilePath": "/home/sn4s/RiderProjects/rdrk3/rdrk3/rdrk3.csproj",
+  "expectedPackageFiles": [
+    "/home/sn4s/.nuget/packages/nettopologysuite/2.5.0/nettopologysuite.2.5.0.nupkg.sha512",
+    "/home/sn4s/.nuget/packages/nredisstack/0.12.0/nredisstack.0.12.0.nupkg.sha512",
+    "/home/sn4s/.nuget/packages/pipelines.sockets.unofficial/2.2.8/pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "/home/sn4s/.nuget/packages/stackexchange.redis/2.6.122/stackexchange.redis.2.6.122.nupkg.sha512",
+    "/home/sn4s/.nuget/packages/system.io.pipelines/5.0.1/system.io.pipelines.5.0.1.nupkg.sha512",
+    "/home/sn4s/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Title</title>
+</head>
+<body>
+
+
+    <span class="test">
+    </span>
+    <button onclick="f("Олександр") id="btn">Тиць</button>
+
+
+<script>
+    let element = document.getElementsByClassName('test');
+    element[0].textContent="Нажми";
+
+function f(name) {
+    element.textContent=name;
+    console.log(name);
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+CREATE (c1:Car {id: "c1", maker: "AUDI", model: "RS7", color: "yellow", fuel_type: "Diesel", price: "€125801", date_of_man: "Jun 10, 2016", range: 112194})
+CREATE (c2:Car {id: "c2", maker: "Ford", model: "180SX", color: "blue", fuel_type: "Diesel", price: "€116105", date_of_man: "Sep 10, 1994", range: 372317})
+CREATE (c3:Car {id: "c3", maker: "BMW", model: "RS7", color: "yellow", fuel_type: "Gas", price: "€189926", date_of_man: "Feb 27, 1997", range: 787856})
+CREATE (c4:Car {id: "c4", maker: "AUDI", model: "RS7", color: "blue", fuel_type: "Gas", price: "€132363", date_of_man: "Mar 22, 2008", range: 543755})
+CREATE (c5:Car {id: "c5", maker: "Nissan", model: "Prius", color: "white", fuel_type: "Diesel", price: "€161980", date_of_man: "Dec 19, 1987", range: 656117})
+
+CREATE (cl1:Client {id: "cl1", sname: "Sweeney", fname: "Avye", mname: "Po batkovi", address: "Ap #845-1473 Semper Av.", city: "Cherkasy", phone: "+38-094-327-5790"})
+CREATE (cl2:Client {id: "cl2", sname: "Frye", fname: "Libby", mname: "Po batkovi", address: "889-4863 Tincidunt Av.", city: "Dnipro", phone: "+38-086-744-8790"})
+CREATE (cl3:Client {id: "cl3", sname: "Pruitt", fname: "Shay", mname: "Po batkovi", address: "Ap #739-1293 Urna. Street", city: "Oleksandriia", phone: "+38-054-491-8312"})
+CREATE (cl4:Client {id: "cl4", sname: "Carey", fname: "Freya", mname: "Po batkovi", address: "P.O. Box 920, 1634 Aenean St.", city: "Oleksandriia", phone: "+38-025-569-2533"})
+CREATE (cl5:Client {id: "cl5", sname: "Rodgers", fname: "Rina", mname: "Po batkovi", address: "Ap #290-334 Elit Rd.", city: "Vinnytsia", phone: "+38-092-467-6358"})
+
+CREATE (d1:Dealer {id: "d1", sname: "Everett", fname: "Cameran", mname: "Po batkovi", photo: "https://imgur.com/group/9", address: "Ap #441-1892 Aenean Ave", phone: "+38-063-113-3423"})
+CREATE (d2:Dealer {id: "d2", sname: "Stanley", fname: "Henry", mname: "Po batkovi", photo: "https://imgur.com/user/110", address: "3312 Nec Av.", phone: "+38-056-151-5698"})
+CREATE (d3:Dealer {id: "d3", sname: "Richard", fname: "Kalia", mname: "Po batkovi", photo: "https://imgur.com/settings", address: "Ap #216-7401 Ipsum. St.", phone: "+38-086-372-5290"})
+CREATE (d4:Dealer {id: "d4", sname: "English", fname: "Neve", mname: "Po batkovi", photo: "https://imgur.com/sub/cars", address: "3135 Eu Ave", phone: "+38-006-313-0258"})
+CREATE (d5:Dealer {id: "d5", sname: "Daniel", fname: "Neville", mname: "Po batkovi", photo: "https://imgur.com/sub/cars", address: "707-8904 Mattis St.", phone: "+38-032-873-8174"})
+
+CREATE (cont1:Contract {id: "1", date_of_selling: "May 3, 2024", price: "€107,989", note: "Phasellus dapibus quam quis diam. Pellentesque habitant"})
+CREATE (cont2:Contract {id: "2", date_of_selling: "Feb 24, 2024", price: "€100,999", note: "ipsum"})
+CREATE (cont3:Contract {id: "3", date_of_selling: "Feb 25, 2024", price: "€170,231", note: "Curabitur"})
+CREATE (cont4:Contract {id: "4", date_of_selling: "Jul 22, 2023", price: "€169,246", note: "at, libero. Morbi accumsan laoreet ipsum. Curabitur"})
+CREATE (cont5:Contract {id: "5", date_of_selling: "Apr 29, 2023", price: "€172,745", note: "sagittis lobortis mauris. Suspendisse aliquet molestie tellus. Aenean"})
+
+
+
+
+MATCH (cl1:Client {id: "cl1"}), (d1:Dealer {id: "d1"}), (c1:Car {id: "c1"}), (cont1:Contract {id: "1"})
+CREATE (cl1)-[:SIGNED]->(cont1)
+CREATE (d1)-[:SIGNED]->(cont1)
+CREATE (c1)-[:PART_OF]->(cont1)
+
+MATCH (cl2:Client {id: "cl2"}), (d1:Dealer {id: "d1"}), (c2:Car {id: "c2"}), (cont2:Contract {id: "2"})
+CREATE (cl2)-[:SIGNED]->(cont2)
+CREATE (d1)-[:SIGNED]->(cont2)
+CREATE (c2)-[:PART_OF]->(cont2)
+
+MATCH (cl3:Client {id: "cl3"}), (d4:Dealer {id: "d4"}), (c3:Car {id: "c3"}), (cont3:Contract {id: "3"})
+CREATE (cl3)-[:SIGNED]->(cont3)
+CREATE (d4)-[:SIGNED]->(cont3)
+CREATE (c3)-[:PART_OF]->(cont3)
+
+MATCH (cl3:Client {id: "cl3"}), (d3:Dealer {id: "d3"}), (c4:Car {id: "c4"}), (cont4:Contract {id: "4"})
+CREATE (cl3)-[:SIGNED]->(cont4)
+CREATE (d3)-[:SIGNED]->(cont4)
+CREATE (c4)-[:PART_OF]->(cont4)
+
+MATCH (cl5:Client {id: "cl5"}), (d2:Dealer {id: "d2"}), (c5:Car {id: "c5"}), (cont5:Contract {id: "5"})
+CREATE (cl5)-[:SIGNED]->(cont5)
+CREATE (d2)-[:SIGNED]->(cont5)
+CREATE (c5)-[:PART_OF]->(cont5)
+
+
+
+CREATE (c6:Car {id: "c6", maker: "Toyota", model: "Corolla", color: "red", fuel_type: "Gas", price: "€18000", date_of_man: "Mar 12, 2021", range: 15000})
+
+MATCH (c:Car) RETURN c
+
+MATCH (c:Car {id: "c1"})
+SET c.price = "€120000"
+RETURN c
+
+MATCH (c:Car {id: "c6"})
+DELETE c
+
+
+
+MATCH (c:Car) RETURN c
+
+MATCH (cl:Client)-[:SIGNED]->(con:Contract)-[:PART_OF]->(c:Car {maker: "AUDI"})
+RETURN cl
+
+MATCH (d:Dealer {id: "d1"})-[:SIGNED]->(con:Contract)
+RETURN con
+
+MATCH (cl:Client {id: "cl3"})-[:SIGNED]->(con:Contract)-[:PART_OF]->(c:Car)
+RETURN c
+
+MATCH (d:Dealer)-[:SIGNED]->(con:Contract)
+RETURN d

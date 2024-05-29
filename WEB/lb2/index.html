@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lab2</title>
+</head>
+<body>
+    let arr = [1,4,5,6,7,7,2,0,12]<br>
+    <button onclick="first()">1.1</button>
+
+    <br>
+    let obj1 = {name:"Alex", age:18};
+    let obj2 = {name:"Oleg", age:23};
+    let obj3 = {name:"Alex", age:18};
+    <br>
+    <button onclick="second()">1.2</button>
+
+
+    <br>
+    <input id="num" type="number">
+    <button onclick="third()">2.1</button>
+
+
+    <br>
+    <button onclick="forth()">2.2</button>
+
+
+    <br>
+    <input id="num2" type="number" max="5" min="1">
+    <button onclick="fifth()">3.1</button><br>
+    <img id="cm" src="a.png" style="visibility: collapse">
+
+    <input id="sae" type="number" max="12" min="1">
+    <button onclick="sixth()">3.2</button><br>
+
+</body>
+</html>
+
+<script>
+    let numbox = document.getElementById('num');
+    let val = true;
+    let markbox = document.getElementById('num2');
+    function maxmin(arr) {
+        let min = arr[0];
+        let max = arr[0];
+
+        for(let i = 0; i < arr.length; i++){
+            if(arr[i]< min) min = arr[i];
+            else if (arr[i]>max) max = arr[i];
+        }
+
+        return {min,max};
+    }
+    function first(){
+        let arr = [14,-4,5,6,7,7,2,0,12]
+        let res = maxmin(arr)
+
+        console.log(arr);
+
+        console.warn("Min: ", res.min)
+        console.warn("Max: ", res.max)
+    }
+
+    function objcomp(obj1,obj2) {
+        if(obj1.age === obj2.age) console.log("ТАК!")
+        else console.log("НІ!")
+    }
+
+    function second(){
+        let obj1 = {name:"Alex", age:18};
+        let obj2 = {name:"Oleg", age:23};
+        let obj3 = {name:"Alex", age:18};
+
+        objcomp(obj1,obj2);
+        objcomp(obj1,obj3);
+    }
+
+    function third(){
+        let num = numbox.value;
+        checknum(num);
+    }
+    function checknum(num,max=10,min=5) {
+
+        if(num>=min && num <=max){
+            console.log("Число ", num , " входить")
+        }else{
+            console.log("Число ", num , " не входить")
+        }
+    }
+
+    function forth() {
+        val=!val;
+        console.log(val)
+    }
+
+    function fifth(){
+        let mark= markbox.value;
+        if(mark==5) console.log("Відмінно")
+        else if(mark==4) console.log("Добре")
+        else if(mark==3) console.log("Задовільно")
+        else if(mark==2) console.log("Незадовільно")
+        else if(mark==1) {console.log("Відрахований");
+        document.getElementById('cm').style.visibility='visible'}
+
+    }
+
+    function getSeason(month) {
+        let season = (month < 1 || month > 12) ? "Ерор" :
+            (month >= 3 && month <= 5) ? "Весна":
+            (month >= 6 && month <= 8) ? "Літо":
+            (month >= 9 && month <= 11) ? "Осінь": "Зима";
+
+        console.log(season)
+    }
+
+    function sixth() {
+        let seas = document.getElementById('sae').value;
+        getSeason(seas);
+
+    }
+
+
+
+</script>

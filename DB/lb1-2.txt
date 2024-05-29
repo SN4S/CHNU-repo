@@ -1,0 +1,132 @@
+ 
+use car_shop
+db.createCollection('cars')
+db.createCollection('clients')
+db.createCollection('dillers')
+db.createCollection('contracts')
+
+db.cars.insertMany([{"_id":"c1","maker":"Ford","model":"RS7","color":"yellow","fuel_type":"Diesel","price":"€125801","date_of_man":"Jun 10, 2016","range":112194},
+{"_id":"c2","maker":"Ford","model":"180SX","color":"blue","fuel_type":"Diesel","price":"€116105","date_of_man":"Sep 10, 1994","range":372317},
+{"_id":"c3","maker":"BMW","model":"RS7","color":"yellow","fuel_type":"Gas","price":"€189926","date_of_man":"Feb 27, 1997","range":787856},
+{"_id":"c4","maker":"AUDI","model":"RS7","color":"blue","fuel_type":"Gas","price":"€132363","date_of_man":"Mar 22, 2008","range":543755},
+{"_id":"c5","maker":"Nissan","model":"Prius","color":"white","fuel_type":"Diesel","price":"€161980","date_of_man":"Dec 19, 1987","range":656117}
+])
+
+db.clients.insertMany([{"_id":"cl1","sname":"Sweeney","fname":"Avye","mname":"Po batkovi","address":"Ap #845-1473 Semper Av.","city":"Cherkasy","phone":"+38-094-327-5790"},
+{"_id":"cl2","sname":"Frye","fname":"Libby","mname":"Po batkovi","address":"889-4863 Tincidunt Av.","city":"Dnipro","phone":"+38-086-744-8790"},
+{"_id":"cl3","sname":"Pruitt","fname":"Shay","mname":"Po batkovi","address":"Ap #739-1293 Urna. Street","city":"Oleksandriia","phone":"+38-054-491-8312"},
+{"_id":"cl4","sname":"Carey","fname":"Freya","mname":"Po batkovi","address":"P.O. Box 920, 1634 Aenean St.","city":"Oleksandriia","phone":"+38-025-569-2533"},
+{"_id":"cl5","sname":"Rodgers","fname":"Rina","mname":"Po batkovi","address":"Ap #290-334 Elit Rd.","city":"Vinnytsia","phone":"+38-092-467-6358"}
+])
+
+db.dillers.insertMany([{"_id":"d1","sname":"Everett","fname":"Cameran","mname":"Po batkovi","photo":"https://imgur.com/group/9","address":"Ap #441-1892 Aenean Ave","phone":"+38-063-113-3423"},
+{"_id":"d2","sname":"Stanley","fname":"Henry","mname":"Po batkovi","photo":"https://imgur.com/user/110","address":"3312 Nec Av.","phone":"+38-056-151-5698"},
+{"_id":"d3","sname":"Richard","fname":"Kalia","mname":"Po batkovi","photo":"https://imgur.com/settings","address":"Ap #216-7401 Ipsum. St.","phone":"+38-086-372-5290"},
+{"_id":"d4","sname":"English","fname":"Neve","mname":"Po batkovi","photo":"https://imgur.com/sub/cars","address":"3135 Eu Ave","phone":"+38-006-313-0258"},
+{"_id":"d5","sname":"Daniel","fname":"Neville","mname":"Po batkovi","photo":"https://imgur.com/sub/cars","address":"707-8904 Mattis St.","phone":"+38-032-873-8174"}
+])
+
+db.contracts.insertMany([
+{"client_id":{$ref:"clients",$id:"cl1"},"diller_id":{$ref:"dillers",$id:"d1"},"car_id":{$ref:"cars",$id:"c1"},"date_of_selling":"May 3, 2024","price":"€107,989","note":"Phasellus dapibus quam quis diam. Pellentesque habitant"},
+{"client_id":{$ref:"clients",$id:"cl2"},"diller_id":{$ref:"dillers",$id:"d1"},"car_id":{$ref:"cars",$id:"c2"},"date_of_selling":"Feb 24, 2024","price":"€100,999","note":"ipsum"},
+{"client_id":{$ref:"clients",$id:"cl3"},"diller_id":{$ref:"dillers",$id:"d4"},"car_id":{$ref:"cars",$id:"c3"},"date_of_selling":"Feb 25, 2024","price":"€170,231","note":"Curabitur"},
+{"client_id":{$ref:"clients",$id:"cl3"},"diller_id":{$ref:"dillers",$id:"d3"},"car_id":{$ref:"cars",$id:"c4"},"date_of_selling":"Jul 22, 2023","price":"€169,246","note":"at, libero. Morbi accumsan laoreet ipsum. Curabitur"},
+{"client_id":{$ref:"clients",$id:"cl5"},"diller_id":{$ref:"dillers",$id:"d2"},"car_id":{$ref:"cars",$id:"c5"},"date_of_selling":"Apr 29, 2023","price":"€172,745","note":"sagittis lobortis mauris. Suspendisse aliquet molestie tellus. Aenean"}
+])
+
+
+db.cars.find({})
+db.clients.find()
+db.dillers.find()
+db.contracts.find()
+
+
+db.cars.aggregate([
+  {
+   $group:
+        { _id: "$maker",
+          count: { $sum: 1 }
+        }
+  },
+  {
+    $sort: { count: -1 }
+  },
+  {
+    $limit: 5
+  }
+])
+
+db.cars.aggregate([
+    { $group: { _id: "$fuel_type", count: { $sum: 1 } } },
+    { $sort: { count: -1 } },
+    { $limit: 3 }
+])
+
+db.cars.aggregate([
+    { $group:
+        { _id: "$maker",
+          avgPrice:
+            { $avg:
+                { $toDouble:
+                    { $trim:
+                        { input: "$price",
+                          chars: "€" }
+                    }
+                }
+            }
+        }
+    }
+])
+
+
+db.contracts.aggregate([
+    { $lookup: { from: "clients", localField: "client_id.$id", foreignField: "_id", as: "client" } },
+    { $unwind: "$client" },
+    { $group: { _id: { sname: "$client.sname", fname: "$client.fname" }, count: { $sum: 1 } } },
+    { $sort: { count: -1 } },
+    { $limit: 1 }
+])
+
+db.contracts.aggregate([
+    {
+        $lookup: {
+            from: "clients",
+            localField: "client_id.$id",
+            foreignField: "_id",
+            as: "client"
+        }
+    },
+    { $unwind: "$client" },
+    {
+        $lookup: {
+            from: "dillers",
+            localField: "diller_id.$id",
+            foreignField: "_id",
+            as: "diller"
+        }
+    },
+    { $unwind: "$diller" },
+    {
+        $lookup: {
+            from: "cars",
+            localField: "car_id.$id",
+            foreignField: "_id",
+            as: "car"
+        }
+    },
+    { $unwind: "$car" },
+    {
+        $group: {
+            _id: {
+                client_id: "$client._id",
+                client_name: { $concat: ["$client.sname", " ", "$client.fname"] },
+                diller_id: "$diller._id",
+                diller_name: { $concat: ["$diller.sname", " ", "$diller.fname"] },
+                car_id: "$car._id",
+                car_model: "$car.model"
+            },
+            count: { $sum: 1 }
+        }
+    }
+])
+
