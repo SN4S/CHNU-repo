@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #232323;
+}
+.form-container{
+    max-width:320px;
+    margin: auto;
+    margin-top: 200px;
+    background: #ffffff;
+    border-radius: 16px;
+}
+
+.tabs {
+    overflow: hidden;
+    padding-top: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    align-self: center;
+
+}
+
+.tablink {
+    background-color: #e0a4e7;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
+
+.tablink:hover {
+    background-color: #d951ff;
+}
+
+.tabcontent {
+    display: none;
+    padding: 20px;
+    border-top: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #b388e0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.loader {
+    border: 16px solid #eabbfc; /* Light grey */
+    border-top: 16px solid #b300ef; /* Blue */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite;
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 999;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.togglePassword {
+    cursor: pointer;
+    color: #666;
+    font-size: 14px;
+    margin-left: 5px;
+}

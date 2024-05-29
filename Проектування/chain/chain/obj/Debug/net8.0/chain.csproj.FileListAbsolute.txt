@@ -1,0 +1,14 @@
+C:\Users\san4e\RiderProjects\chain\chain\bin\Debug\net8.0\chain.exe
+C:\Users\san4e\RiderProjects\chain\chain\bin\Debug\net8.0\chain.deps.json
+C:\Users\san4e\RiderProjects\chain\chain\bin\Debug\net8.0\chain.runtimeconfig.json
+C:\Users\san4e\RiderProjects\chain\chain\bin\Debug\net8.0\chain.dll
+C:\Users\san4e\RiderProjects\chain\chain\bin\Debug\net8.0\chain.pdb
+C:\Users\san4e\RiderProjects\chain\chain\obj\Debug\net8.0\chain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\san4e\RiderProjects\chain\chain\obj\Debug\net8.0\chain.AssemblyInfoInputs.cache
+C:\Users\san4e\RiderProjects\chain\chain\obj\Debug\net8.0\chain.AssemblyInfo.cs
+C:\Users\san4e\RiderProjects\chain\chain\obj\Debug\net8.0\chain.csproj.CoreCompileInputs.cache
+C:\Users\san4e\RiderProjects\chain\chain\obj\Debug\net8.0\chain.dll
+C:\Users\san4e\RiderProjects\chain\chain\obj\Debug\net8.0\refint\chain.dll
+C:\Users\san4e\RiderProjects\chain\chain\obj\Debug\net8.0\chain.pdb
+C:\Users\san4e\RiderProjects\chain\chain\obj\Debug\net8.0\chain.genruntimeconfig.cache
+C:\Users\san4e\RiderProjects\chain\chain\obj\Debug\net8.0\ref\chain.dll

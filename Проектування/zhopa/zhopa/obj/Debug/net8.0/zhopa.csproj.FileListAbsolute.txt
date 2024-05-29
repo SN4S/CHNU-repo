@@ -1,0 +1,14 @@
+C:\Users\san4e\RiderProjects\zhopa\zhopa\bin\Debug\net8.0\zhopa.exe
+C:\Users\san4e\RiderProjects\zhopa\zhopa\bin\Debug\net8.0\zhopa.deps.json
+C:\Users\san4e\RiderProjects\zhopa\zhopa\bin\Debug\net8.0\zhopa.runtimeconfig.json
+C:\Users\san4e\RiderProjects\zhopa\zhopa\bin\Debug\net8.0\zhopa.dll
+C:\Users\san4e\RiderProjects\zhopa\zhopa\bin\Debug\net8.0\zhopa.pdb
+C:\Users\san4e\RiderProjects\zhopa\zhopa\obj\Debug\net8.0\zhopa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\san4e\RiderProjects\zhopa\zhopa\obj\Debug\net8.0\zhopa.AssemblyInfoInputs.cache
+C:\Users\san4e\RiderProjects\zhopa\zhopa\obj\Debug\net8.0\zhopa.AssemblyInfo.cs
+C:\Users\san4e\RiderProjects\zhopa\zhopa\obj\Debug\net8.0\zhopa.csproj.CoreCompileInputs.cache
+C:\Users\san4e\RiderProjects\zhopa\zhopa\obj\Debug\net8.0\zhopa.dll
+C:\Users\san4e\RiderProjects\zhopa\zhopa\obj\Debug\net8.0\refint\zhopa.dll
+C:\Users\san4e\RiderProjects\zhopa\zhopa\obj\Debug\net8.0\zhopa.pdb
+C:\Users\san4e\RiderProjects\zhopa\zhopa\obj\Debug\net8.0\zhopa.genruntimeconfig.cache
+C:\Users\san4e\RiderProjects\zhopa\zhopa\obj\Debug\net8.0\ref\zhopa.dll

@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#tabs-container {
+    display: flex;
+    flex-direction: column;
+}
+.tabs{
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    padding: 10px;
+    margin-right: 5px;
+    border: 1px groove;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+button.active {
+    background-color: #ccc;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    opacity: 0;
+    transition: opacity 1s; }
+
+.tab-content.active {
+    display: block;
+    opacity: 1;
+}

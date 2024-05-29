@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.tree {
+    margin: 20px;
+}
+
+.node {
+    margin-bottom: 10px;
+}
+
+.node-header {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
+.node-children {
+    display: none;
+    padding-left: 20px;
+}
+
+.leaf {
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.leaf:hover {
+    background-color: lightblue;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="to_do_list">
+            <div class="to_do_list_conteiner">
+                <div class="to_do_list_body">
+                    <label>Введіть завдання:</label>
+                    <div class="inputts">
+                        <input type="text" class="to_do_list_input">
+                        <button class="to_do_list_button">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="to_do_list">
+            <div class="to_do_list_conteiner">
+                <div class="to_do_list_filter">
+                    <select name="to_do_list_select" id="list_select" class="to_do_list_select">
+                        <option value="all">Усі</option>
+                        <option value="completed">Виконані</option>
+                        <option value="incomplete">Не виконані</option>
+                    </select>
+                </div>
+                <div class="to_do_list_display">
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

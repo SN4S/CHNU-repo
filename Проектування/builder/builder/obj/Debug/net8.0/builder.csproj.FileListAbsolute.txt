@@ -1,0 +1,14 @@
+C:\Users\san4e\RiderProjects\builder\builder\bin\Debug\net8.0\builder.exe
+C:\Users\san4e\RiderProjects\builder\builder\bin\Debug\net8.0\builder.deps.json
+C:\Users\san4e\RiderProjects\builder\builder\bin\Debug\net8.0\builder.runtimeconfig.json
+C:\Users\san4e\RiderProjects\builder\builder\bin\Debug\net8.0\builder.dll
+C:\Users\san4e\RiderProjects\builder\builder\bin\Debug\net8.0\builder.pdb
+C:\Users\san4e\RiderProjects\builder\builder\obj\Debug\net8.0\builder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\san4e\RiderProjects\builder\builder\obj\Debug\net8.0\builder.AssemblyInfoInputs.cache
+C:\Users\san4e\RiderProjects\builder\builder\obj\Debug\net8.0\builder.AssemblyInfo.cs
+C:\Users\san4e\RiderProjects\builder\builder\obj\Debug\net8.0\builder.csproj.CoreCompileInputs.cache
+C:\Users\san4e\RiderProjects\builder\builder\obj\Debug\net8.0\builder.dll
+C:\Users\san4e\RiderProjects\builder\builder\obj\Debug\net8.0\refint\builder.dll
+C:\Users\san4e\RiderProjects\builder\builder\obj\Debug\net8.0\builder.pdb
+C:\Users\san4e\RiderProjects\builder\builder\obj\Debug\net8.0\builder.genruntimeconfig.cache
+C:\Users\san4e\RiderProjects\builder\builder\obj\Debug\net8.0\ref\builder.dll

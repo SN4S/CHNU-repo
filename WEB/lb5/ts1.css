@@ -1,0 +1,34 @@
+body{background: #1c1c1f
+}
+.lamp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.lamp_top{
+    background: dimgray;
+    height: 100px;
+    width: 100px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.lamp_bulb{
+    background: darkgrey;
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+}
+.lamp_bulb.on{
+    background: #fffd00;
+}
+.lamp_bulb.led{
+    height: 300px;
+    width: 100px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.lamp_bulb.led.on{
+    background: white;
+}

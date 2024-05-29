@@ -1,0 +1,14 @@
+C:\Users\san4e\RiderProjects\comand\comand\bin\Debug\net8.0\comand.exe
+C:\Users\san4e\RiderProjects\comand\comand\bin\Debug\net8.0\comand.deps.json
+C:\Users\san4e\RiderProjects\comand\comand\bin\Debug\net8.0\comand.runtimeconfig.json
+C:\Users\san4e\RiderProjects\comand\comand\bin\Debug\net8.0\comand.dll
+C:\Users\san4e\RiderProjects\comand\comand\bin\Debug\net8.0\comand.pdb
+C:\Users\san4e\RiderProjects\comand\comand\obj\Debug\net8.0\comand.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\san4e\RiderProjects\comand\comand\obj\Debug\net8.0\comand.AssemblyInfoInputs.cache
+C:\Users\san4e\RiderProjects\comand\comand\obj\Debug\net8.0\comand.AssemblyInfo.cs
+C:\Users\san4e\RiderProjects\comand\comand\obj\Debug\net8.0\comand.csproj.CoreCompileInputs.cache
+C:\Users\san4e\RiderProjects\comand\comand\obj\Debug\net8.0\comand.dll
+C:\Users\san4e\RiderProjects\comand\comand\obj\Debug\net8.0\refint\comand.dll
+C:\Users\san4e\RiderProjects\comand\comand\obj\Debug\net8.0\comand.pdb
+C:\Users\san4e\RiderProjects\comand\comand\obj\Debug\net8.0\comand.genruntimeconfig.cache
+C:\Users\san4e\RiderProjects\comand\comand\obj\Debug\net8.0\ref\comand.dll

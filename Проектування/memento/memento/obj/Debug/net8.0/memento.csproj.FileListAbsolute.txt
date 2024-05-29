@@ -1,0 +1,14 @@
+C:\Users\san4e\RiderProjects\memento\memento\obj\Debug\net8.0\memento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\san4e\RiderProjects\memento\memento\obj\Debug\net8.0\memento.AssemblyInfoInputs.cache
+C:\Users\san4e\RiderProjects\memento\memento\obj\Debug\net8.0\memento.AssemblyInfo.cs
+C:\Users\san4e\RiderProjects\memento\memento\obj\Debug\net8.0\memento.csproj.CoreCompileInputs.cache
+C:\Users\san4e\RiderProjects\memento\memento\bin\Debug\net8.0\memento.exe
+C:\Users\san4e\RiderProjects\memento\memento\bin\Debug\net8.0\memento.deps.json
+C:\Users\san4e\RiderProjects\memento\memento\bin\Debug\net8.0\memento.runtimeconfig.json
+C:\Users\san4e\RiderProjects\memento\memento\bin\Debug\net8.0\memento.dll
+C:\Users\san4e\RiderProjects\memento\memento\bin\Debug\net8.0\memento.pdb
+C:\Users\san4e\RiderProjects\memento\memento\obj\Debug\net8.0\memento.dll
+C:\Users\san4e\RiderProjects\memento\memento\obj\Debug\net8.0\refint\memento.dll
+C:\Users\san4e\RiderProjects\memento\memento\obj\Debug\net8.0\memento.pdb
+C:\Users\san4e\RiderProjects\memento\memento\obj\Debug\net8.0\memento.genruntimeconfig.cache
+C:\Users\san4e\RiderProjects\memento\memento\obj\Debug\net8.0\ref\memento.dll

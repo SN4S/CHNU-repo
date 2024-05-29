@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Webpage</title>
+    <link rel="stylesheet" href="Lb 7_1.css">
+</head>
+<body>
+
+<div class="container" id="container">
+    <div class="block" data-id="1" onclick="resizeBlock(this)"></div>
+    <div class="block" data-id="2" onclick="resizeBlock(this)"></div>
+    <div class="block" data-id="3" onclick="resizeBlock(this)"></div>
+</div>
+
+<button onclick="getBlocksInfo()">Отримати розміри та координати елементів</button>
+
+<button onclick="addBlock()">Додати блок</button>
+
+<script src="Lb 7_1.js"></script>
+</body>
+</html>

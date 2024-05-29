@@ -1,0 +1,14 @@
+C:\Users\san4e\RiderProjects\wraper\wraper\bin\Debug\net8.0\wraper.exe
+C:\Users\san4e\RiderProjects\wraper\wraper\bin\Debug\net8.0\wraper.deps.json
+C:\Users\san4e\RiderProjects\wraper\wraper\bin\Debug\net8.0\wraper.runtimeconfig.json
+C:\Users\san4e\RiderProjects\wraper\wraper\bin\Debug\net8.0\wraper.dll
+C:\Users\san4e\RiderProjects\wraper\wraper\bin\Debug\net8.0\wraper.pdb
+C:\Users\san4e\RiderProjects\wraper\wraper\obj\Debug\net8.0\wraper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\san4e\RiderProjects\wraper\wraper\obj\Debug\net8.0\wraper.AssemblyInfoInputs.cache
+C:\Users\san4e\RiderProjects\wraper\wraper\obj\Debug\net8.0\wraper.AssemblyInfo.cs
+C:\Users\san4e\RiderProjects\wraper\wraper\obj\Debug\net8.0\wraper.csproj.CoreCompileInputs.cache
+C:\Users\san4e\RiderProjects\wraper\wraper\obj\Debug\net8.0\wraper.dll
+C:\Users\san4e\RiderProjects\wraper\wraper\obj\Debug\net8.0\refint\wraper.dll
+C:\Users\san4e\RiderProjects\wraper\wraper\obj\Debug\net8.0\wraper.pdb
+C:\Users\san4e\RiderProjects\wraper\wraper\obj\Debug\net8.0\wraper.genruntimeconfig.cache
+C:\Users\san4e\RiderProjects\wraper\wraper\obj\Debug\net8.0\ref\wraper.dll

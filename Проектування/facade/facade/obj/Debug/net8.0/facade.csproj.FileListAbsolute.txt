@@ -1,0 +1,14 @@
+C:\Users\san4e\RiderProjects\facade\facade\bin\Debug\net8.0\facade.exe
+C:\Users\san4e\RiderProjects\facade\facade\bin\Debug\net8.0\facade.deps.json
+C:\Users\san4e\RiderProjects\facade\facade\bin\Debug\net8.0\facade.runtimeconfig.json
+C:\Users\san4e\RiderProjects\facade\facade\bin\Debug\net8.0\facade.dll
+C:\Users\san4e\RiderProjects\facade\facade\bin\Debug\net8.0\facade.pdb
+C:\Users\san4e\RiderProjects\facade\facade\obj\Debug\net8.0\facade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\san4e\RiderProjects\facade\facade\obj\Debug\net8.0\facade.AssemblyInfoInputs.cache
+C:\Users\san4e\RiderProjects\facade\facade\obj\Debug\net8.0\facade.AssemblyInfo.cs
+C:\Users\san4e\RiderProjects\facade\facade\obj\Debug\net8.0\facade.csproj.CoreCompileInputs.cache
+C:\Users\san4e\RiderProjects\facade\facade\obj\Debug\net8.0\facade.dll
+C:\Users\san4e\RiderProjects\facade\facade\obj\Debug\net8.0\refint\facade.dll
+C:\Users\san4e\RiderProjects\facade\facade\obj\Debug\net8.0\facade.pdb
+C:\Users\san4e\RiderProjects\facade\facade\obj\Debug\net8.0\facade.genruntimeconfig.cache
+C:\Users\san4e\RiderProjects\facade\facade\obj\Debug\net8.0\ref\facade.dll

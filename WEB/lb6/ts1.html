@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div class="wrapper">
+    <div class="products">
+        <div class="products__container">
+            <div class="products_title">Додати продукт</div>
+            <div class="products_create">
+                <div class="products_input_title">Назва: <input type="text" id="input_name" class="products_input" required placeholder="Введіть назву"></div>
+                <div class="products_input_title">Ціна: <input type="number" id="input_price"  class="products_input" required  placeholder="Введіть Ціна"></div>
+                <div class="products_input_title">Виберіть зображення: <input type="file" id="imageInput" accept="image/*" required></div>
+                <button class="products_product_button" id="create_product_button">Додати товар</button>
+            </div>
+            <div class="products_filter"> <input type="text" class="product_filter_input"  placeholder="Введіть назву"></div>
+            <div class="products_sum">Ціна всіх товарів: <span>0 грн</span></div>
+        </div>
+        <div class="products_list__container"></div>
+    </div>
+
+    <div class="popup">
+        <div class="popup_body">
+            <div class="popup_content">
+                <div class="popup_close"><img src="ico/close.png" alt="cross"></div>
+                <div class="popup_info">попереднє значення:<span class="popup_last_value"></span></div>
+                <input type="text" class="popup_name_input" placeholder="Введіть нове значення" required>
+            </div>
+            <div class="popup_button"> <button >Зберегти</button> </div>
+        </div>
+    </div>
+
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>

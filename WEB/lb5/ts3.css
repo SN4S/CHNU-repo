@@ -1,0 +1,18 @@
+body{background: #1c1c1f
+}
+.clock {
+    margin-top: 20px;
+}
+.clock_watch, .clock_seconds {
+    color: white;
+    font-size: 54px;
+}
+.clock_seconds {
+    color: white;
+    font-size: 34px;
+}
+.clock_timer {
+}
+.clock_timer_info {
+    color: white;
+}

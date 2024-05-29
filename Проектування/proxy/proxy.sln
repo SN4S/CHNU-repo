@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "proxy", "proxy\proxy.csproj", "{AD39ED28-86B1-4E7A-90EE-57722D71900D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD39ED28-86B1-4E7A-90EE-57722D71900D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD39ED28-86B1-4E7A-90EE-57722D71900D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD39ED28-86B1-4E7A-90EE-57722D71900D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD39ED28-86B1-4E7A-90EE-57722D71900D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

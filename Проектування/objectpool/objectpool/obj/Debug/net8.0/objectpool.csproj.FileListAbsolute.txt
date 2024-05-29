@@ -1,0 +1,14 @@
+C:\Users\san4e\RiderProjects\objectpool\objectpool\bin\Debug\net8.0\objectpool.exe
+C:\Users\san4e\RiderProjects\objectpool\objectpool\bin\Debug\net8.0\objectpool.deps.json
+C:\Users\san4e\RiderProjects\objectpool\objectpool\bin\Debug\net8.0\objectpool.runtimeconfig.json
+C:\Users\san4e\RiderProjects\objectpool\objectpool\bin\Debug\net8.0\objectpool.dll
+C:\Users\san4e\RiderProjects\objectpool\objectpool\bin\Debug\net8.0\objectpool.pdb
+C:\Users\san4e\RiderProjects\objectpool\objectpool\obj\Debug\net8.0\objectpool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\san4e\RiderProjects\objectpool\objectpool\obj\Debug\net8.0\objectpool.AssemblyInfoInputs.cache
+C:\Users\san4e\RiderProjects\objectpool\objectpool\obj\Debug\net8.0\objectpool.AssemblyInfo.cs
+C:\Users\san4e\RiderProjects\objectpool\objectpool\obj\Debug\net8.0\objectpool.csproj.CoreCompileInputs.cache
+C:\Users\san4e\RiderProjects\objectpool\objectpool\obj\Debug\net8.0\objectpool.dll
+C:\Users\san4e\RiderProjects\objectpool\objectpool\obj\Debug\net8.0\refint\objectpool.dll
+C:\Users\san4e\RiderProjects\objectpool\objectpool\obj\Debug\net8.0\objectpool.pdb
+C:\Users\san4e\RiderProjects\objectpool\objectpool\obj\Debug\net8.0\objectpool.genruntimeconfig.cache
+C:\Users\san4e\RiderProjects\objectpool\objectpool\obj\Debug\net8.0\ref\objectpool.dll

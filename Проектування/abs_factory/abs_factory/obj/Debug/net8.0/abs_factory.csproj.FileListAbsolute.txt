@@ -1,0 +1,14 @@
+C:\Users\san4e\RiderProjects\abs_factory\abs_factory\obj\Debug\net8.0\abs_factory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\san4e\RiderProjects\abs_factory\abs_factory\obj\Debug\net8.0\abs_factory.AssemblyInfoInputs.cache
+C:\Users\san4e\RiderProjects\abs_factory\abs_factory\obj\Debug\net8.0\abs_factory.AssemblyInfo.cs
+C:\Users\san4e\RiderProjects\abs_factory\abs_factory\obj\Debug\net8.0\abs_factory.csproj.CoreCompileInputs.cache
+C:\Users\san4e\RiderProjects\abs_factory\abs_factory\bin\Debug\net8.0\abs_factory.exe
+C:\Users\san4e\RiderProjects\abs_factory\abs_factory\bin\Debug\net8.0\abs_factory.deps.json
+C:\Users\san4e\RiderProjects\abs_factory\abs_factory\bin\Debug\net8.0\abs_factory.runtimeconfig.json
+C:\Users\san4e\RiderProjects\abs_factory\abs_factory\bin\Debug\net8.0\abs_factory.dll
+C:\Users\san4e\RiderProjects\abs_factory\abs_factory\bin\Debug\net8.0\abs_factory.pdb
+C:\Users\san4e\RiderProjects\abs_factory\abs_factory\obj\Debug\net8.0\abs_factory.dll
+C:\Users\san4e\RiderProjects\abs_factory\abs_factory\obj\Debug\net8.0\refint\abs_factory.dll
+C:\Users\san4e\RiderProjects\abs_factory\abs_factory\obj\Debug\net8.0\abs_factory.pdb
+C:\Users\san4e\RiderProjects\abs_factory\abs_factory\obj\Debug\net8.0\abs_factory.genruntimeconfig.cache
+C:\Users\san4e\RiderProjects\abs_factory\abs_factory\obj\Debug\net8.0\ref\abs_factory.dll

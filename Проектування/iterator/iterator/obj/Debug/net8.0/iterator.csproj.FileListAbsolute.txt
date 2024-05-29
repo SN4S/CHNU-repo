@@ -1,0 +1,14 @@
+C:\Users\san4e\RiderProjects\iterator\iterator\bin\Debug\net8.0\iterator.exe
+C:\Users\san4e\RiderProjects\iterator\iterator\bin\Debug\net8.0\iterator.deps.json
+C:\Users\san4e\RiderProjects\iterator\iterator\bin\Debug\net8.0\iterator.runtimeconfig.json
+C:\Users\san4e\RiderProjects\iterator\iterator\bin\Debug\net8.0\iterator.dll
+C:\Users\san4e\RiderProjects\iterator\iterator\bin\Debug\net8.0\iterator.pdb
+C:\Users\san4e\RiderProjects\iterator\iterator\obj\Debug\net8.0\iterator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\san4e\RiderProjects\iterator\iterator\obj\Debug\net8.0\iterator.AssemblyInfoInputs.cache
+C:\Users\san4e\RiderProjects\iterator\iterator\obj\Debug\net8.0\iterator.AssemblyInfo.cs
+C:\Users\san4e\RiderProjects\iterator\iterator\obj\Debug\net8.0\iterator.csproj.CoreCompileInputs.cache
+C:\Users\san4e\RiderProjects\iterator\iterator\obj\Debug\net8.0\iterator.dll
+C:\Users\san4e\RiderProjects\iterator\iterator\obj\Debug\net8.0\refint\iterator.dll
+C:\Users\san4e\RiderProjects\iterator\iterator\obj\Debug\net8.0\iterator.pdb
+C:\Users\san4e\RiderProjects\iterator\iterator\obj\Debug\net8.0\iterator.genruntimeconfig.cache
+C:\Users\san4e\RiderProjects\iterator\iterator\obj\Debug\net8.0\ref\iterator.dll

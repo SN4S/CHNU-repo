@@ -1,0 +1,14 @@
+C:\Users\san4e\RiderProjects\strategy\strategy\bin\Debug\net8.0\strategy.exe
+C:\Users\san4e\RiderProjects\strategy\strategy\bin\Debug\net8.0\strategy.deps.json
+C:\Users\san4e\RiderProjects\strategy\strategy\bin\Debug\net8.0\strategy.runtimeconfig.json
+C:\Users\san4e\RiderProjects\strategy\strategy\bin\Debug\net8.0\strategy.dll
+C:\Users\san4e\RiderProjects\strategy\strategy\bin\Debug\net8.0\strategy.pdb
+C:\Users\san4e\RiderProjects\strategy\strategy\obj\Debug\net8.0\strategy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\san4e\RiderProjects\strategy\strategy\obj\Debug\net8.0\strategy.AssemblyInfoInputs.cache
+C:\Users\san4e\RiderProjects\strategy\strategy\obj\Debug\net8.0\strategy.AssemblyInfo.cs
+C:\Users\san4e\RiderProjects\strategy\strategy\obj\Debug\net8.0\strategy.csproj.CoreCompileInputs.cache
+C:\Users\san4e\RiderProjects\strategy\strategy\obj\Debug\net8.0\strategy.dll
+C:\Users\san4e\RiderProjects\strategy\strategy\obj\Debug\net8.0\refint\strategy.dll
+C:\Users\san4e\RiderProjects\strategy\strategy\obj\Debug\net8.0\strategy.pdb
+C:\Users\san4e\RiderProjects\strategy\strategy\obj\Debug\net8.0\strategy.genruntimeconfig.cache
+C:\Users\san4e\RiderProjects\strategy\strategy\obj\Debug\net8.0\ref\strategy.dll

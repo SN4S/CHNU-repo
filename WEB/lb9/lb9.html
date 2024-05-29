@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="lb9.css">
+</head>
+<body>
+    <div class="form-container">
+        <div class="tabs">
+            <button class="tablink" onclick="openTab(event, 'login')">Login</button>
+            <button class="tablink" onclick="openTab(event, 'register')">Register</button>
+        </div>
+
+        <div id="login" class="tabcontent">
+            <h2>Login</h2>
+            <form id="loginForm" action="92.html">
+                <div>
+                    <label for="loginUsername">Username:</label>
+                    <input type="text" id="loginUsername" name="loginUsername" required>
+                </div>
+                <div>
+                    <label for="loginPassword">Password:</label>
+                    <input type="password" id="loginPassword" name="loginPassword" required>
+                    <span class="togglePassword" onclick="togglePassword('loginPassword')">Show Password</span>
+                </div>
+                <div class="error" id="usernameError"></div>
+                <div class="error" id="passwordError"></div>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+
+        <div id="register" class="tabcontent">
+            <h2>Register</h2>
+            <form id="registerForm">
+                <div>
+                    <label for="registerUsername">Username:</label>
+                    <input type="text" id="registerUsername" name="registerUsername" minlength="3" maxlength="15" required>
+                </div>
+                <div>
+                    <label for="registerEmail">Email:</label>
+                    <input type="email" id="registerEmail" name="registerEmail" required>
+                </div>
+                <div>
+                    <label for="registerPassword">Password:</label>
+                    <input type="password" id="registerPassword" name="registerPassword" minlength="6" required>
+                    <span class="togglePassword" onclick="togglePassword('registerPassword')">Show Password</span>
+                </div>
+                <div>
+                    <label for="confirmPassword">Confirm Password:</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword" minlength="6" required>
+                    <span class="togglePassword" onclick="togglePassword('confirmPassword')">Show Password</span>
+
+                </div>
+                <div class="error" id="registerUsernameError"></div>
+                <div class="error" id="emailError"></div>
+                <div class="error" id="registerPasswordError"></div>
+                <div class="error" id="confirmPasswordError"></div>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+
+        <div id="loader" class="loader"></div>
+    </div>
+
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="lb9.js"></script>
+</body>
+</html>

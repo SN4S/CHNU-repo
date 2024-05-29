@@ -1,0 +1,14 @@
+C:\Users\san4e\RiderProjects\mediator\mediator\bin\Debug\net8.0\mediator.exe
+C:\Users\san4e\RiderProjects\mediator\mediator\bin\Debug\net8.0\mediator.deps.json
+C:\Users\san4e\RiderProjects\mediator\mediator\bin\Debug\net8.0\mediator.runtimeconfig.json
+C:\Users\san4e\RiderProjects\mediator\mediator\bin\Debug\net8.0\mediator.dll
+C:\Users\san4e\RiderProjects\mediator\mediator\bin\Debug\net8.0\mediator.pdb
+C:\Users\san4e\RiderProjects\mediator\mediator\obj\Debug\net8.0\mediator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\san4e\RiderProjects\mediator\mediator\obj\Debug\net8.0\mediator.AssemblyInfoInputs.cache
+C:\Users\san4e\RiderProjects\mediator\mediator\obj\Debug\net8.0\mediator.AssemblyInfo.cs
+C:\Users\san4e\RiderProjects\mediator\mediator\obj\Debug\net8.0\mediator.csproj.CoreCompileInputs.cache
+C:\Users\san4e\RiderProjects\mediator\mediator\obj\Debug\net8.0\mediator.dll
+C:\Users\san4e\RiderProjects\mediator\mediator\obj\Debug\net8.0\refint\mediator.dll
+C:\Users\san4e\RiderProjects\mediator\mediator\obj\Debug\net8.0\mediator.pdb
+C:\Users\san4e\RiderProjects\mediator\mediator\obj\Debug\net8.0\mediator.genruntimeconfig.cache
+C:\Users\san4e\RiderProjects\mediator\mediator\obj\Debug\net8.0\ref\mediator.dll
